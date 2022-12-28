@@ -177,3 +177,38 @@ body{
     transition: 0.2s all;
 }
 
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2em;/*diminui a margem da parte principal*/
+    }
+
+    .secundario{
+        margin: 0;/*tirei a margin*/
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .dispositivos__lista{
+        display: block;
+    }
+
+    .rodape__lista{
+        display: block;
+    }
+
+    .rodape__texto2{
+        margin: 0 1em 2em 1em;
+    }
+}
